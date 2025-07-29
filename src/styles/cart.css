@@ -1,0 +1,127 @@
+.cart-page {
+  padding: 20px;
+}
+.cart-page h2 {
+  font-size: 24px;
+  color: #1E3A8A;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: #F9FAFB;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.cart-item-details {
+  flex: 1;
+}
+.cart-item-details h3 {
+  font-size: 16px;
+  color: #1E3A8A;
+  margin-bottom: 5px;
+}
+.cart-item-details p {
+  font-size: 14px;
+  color: #14B8A6;
+}
+.quantity-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 5px;
+}
+.quantity-controls span {
+  font-size: 14px;
+  color: #4B5563;
+}
+.increase-btn, .remove-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.increase-btn {
+  background: #10B981;
+  color: white;
+}
+.increase-btn:hover {
+  background: #059669;
+}
+.remove-btn {
+  background: #F87171;
+  color: white;
+}
+.remove-btn:hover {
+  background: #EF4444;
+}
+.cart-summary {
+  text-align: right;
+  padding: 15px;
+  background: #F9FAFB;
+  border-radius: 5px;
+}
+.cart-summary p {
+  font-size: 18px;
+  color: #1E3A8A;
+  margin-bottom: 10px;
+}
+.checkout-btn, .clear-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.checkout-btn {
+  background: linear-gradient(90deg, #14B8A6, #2DD4BF);
+  margin-right: 10px;
+}
+.checkout-btn:hover {
+  background: linear-gradient(90deg, #0F766E, #14B8A6);
+}
+.clear-btn {
+  background: #F87171;
+}
+.clear-btn:hover {
+  background: #EF4444;
+}
+.cart-empty {
+  text-align: center;
+  font-size: 18px;
+  color: #4B5563;
+}
+.cart-empty a {
+  color: #14B8A6;
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .cart-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cart-item-image {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .quantity-controls {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

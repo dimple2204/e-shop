@@ -1,0 +1,70 @@
+.account-page {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #1F2937, #4B5563);
+  min-height: calc(100vh - 80px);
+}
+.account-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+}
+.account-container h2 {
+  font-size: 32px;
+  color: #1F2937;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.user-info {
+  margin-bottom: 20px;
+}
+.user-info p {
+  font-size: 16px;
+  color: #4B5563;
+  margin-bottom: 10px;
+}
+.user-info strong {
+  color: #1F2937;
+}
+.account-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.account-link {
+  background: linear-gradient(90deg, #EC4899, #F472B6);
+  color: white;
+  padding: 12px;
+  text-align: center;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+.account-link:hover {
+  background: linear-gradient(90deg, #DB2777, #EC4899);
+}
+.logout-button {
+  background: linear-gradient(90deg, #EC4899, #F472B6);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.logout-button:hover {
+  background: linear-gradient(90deg, #DB2777, #EC4899);
+}
+@media (max-width: 480px) {
+  .account-container {
+    padding: 20px;
+  }
+  .account-container h2 {
+    font-size: 24px;
+  }
+}

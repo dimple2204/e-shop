@@ -1,0 +1,101 @@
+.home-page {
+  padding: 20px;
+}
+.hero {
+  background: linear-gradient(135deg, #1E3A8A, #60A5FA);
+  color: white;
+  padding: 80px 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+.hero-content h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.shop-now {
+  background: linear-gradient(90deg, #14B8A6, #2DD4BF);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.shop-now:hover {
+  background: linear-gradient(90deg, #0F766E, #14B8A6);
+}
+.top-sections {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.trending-section, .flash-sale-section {
+  flex: 1;
+  background-color: #F9FAFB;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.trending-section h2, .flash-sale-section h2 {
+  font-size: 24px;
+  color: #1E3A8A;
+  margin-bottom: 15px;
+}
+.trending-items, .flash-sale-items {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+}
+.trending-item, .flash-sale-item {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 180px;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+.trending-item:hover, .flash-sale-item:hover {
+  transform: translateY(-5px);
+}
+.trending-item-image, .flash-sale-item-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+.trending-item-details, .flash-sale-item-details {
+  padding: 10px;
+  text-align: center;
+}
+.trending-item-details h3, .flash-sale-item-details h3 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.trending-item-details p, .flash-sale-item-details .flash-sale-price {
+  font-size: 14px;
+  color: #14B8A6;
+}
+.flash-sale-item-details .original-price {
+  color: #9CA3AF;
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+.timer {
+  color: #F87171;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .top-sections {
+    flex-direction: column;
+  }
+  .hero {
+    padding: 40px 10px;
+  }
+  .hero-content h1 {
+    font-size: 28px;
+  }
+}

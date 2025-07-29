@@ -1,0 +1,31 @@
+.payment-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.payment-form h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 20px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #4B5563;
+  font-weight: 500;
+}
+.pay-btn {
+  background: linear-gradient(90deg, #1D4ED8, #3B82F6);
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+.pay-btn:hover {
+  background: linear-gradient(90deg, #1E40AF, #2563EB);
+}

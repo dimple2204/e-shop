@@ -1,0 +1,19 @@
+.view-toggle {
+  display: flex;
+  gap: 10px;
+}
+.view-toggle button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #E5E7EB;
+  color: #1F2937;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.view-toggle button.active {
+  background: linear-gradient(90deg, #1D4ED8, #3B82F6);
+  color: white;
+}
+.view-toggle button:hover {
+  background-color: #D1D5DB;
+}
