@@ -20,7 +20,7 @@ Backend: Firebase (Authentication, Realtime Database)
 Tools: Axios, react-hot-toast
 
 🚀 Quick Start
-Clone the repository with git clone https://github.com/your-username/ecommerce-store.git, then cd ecommerce-store. 
+Clone the repository with git clone https://github.com/dimple2204/e-shop.git, then cd ecommerce-store. 
 Install dependencies with npm install. Configure Firebase by copying .env.example to .env and adding your Firebase config.
 Finally, launch the app with npm run dev.
 
@@ -40,7 +40,7 @@ Distributed under the MIT License.
 
 Author: Dimple Gaur 👨‍💻
 Email: dimple.gaur2204@gmail.com 📧
-GitHub: https://github.com/your-username 🌍
+GitHub: https://github.com/dimple2204 🌍
 
 🌈 Support the Project
 Star ⭐ this repo if you find it useful! Contributions, feedback, and feature requests are highly appreciated. 🚧
